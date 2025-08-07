@@ -85,4 +85,42 @@ int main(){
     
 
     return 0;
+
 }
+
+
+/*==========OUTPUTS==========
+Enter the number of rows of Matrix-1: 3
+Enter the number of columns of Matrix-1: 3
+Enter elements of Matrix-1: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Enter the number of rows of Matrix-2: 3
+Enter the number of columns of Matrix-2: 3
+Enter elements of Matrix-2:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Entered Matrix-1 is:
+1	2	3	
+4	5	6	
+7	8	9	
+Entered Matrix-2 is:
+1	2	3	
+4	5	6	
+7	8	9	
+Two Matrices are equal.
+*/
