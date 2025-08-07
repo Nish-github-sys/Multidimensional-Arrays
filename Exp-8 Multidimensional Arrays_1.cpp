@@ -35,4 +35,25 @@ int main(){
 
 
     return 0;
+
 }
+
+
+/*==========OUTPUTS==========
+Enter the number of rows: 3
+Enter the number of columns: 3
+Enter elements of Matrix: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Entered Matrix is:
+1	2	3	
+4	5	6	
+7	8	9
+*/
