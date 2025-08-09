@@ -85,3 +85,26 @@ This program demonstrates matrix transposition in C++, where the rows and column
 6. Output the transposed matrix with flipped dimensions
 
 # Program-6: Comparing 2-D Array
+
+This program compares two square matrices for equality by first checking if their dimensions match (m1 == n1 and m2 == n2). If the dimensions are equal, it compares each corresponding element of the matrices; if all elements are identical, it sets a flag indicating the matrices are equal. The program then outputs whether the matrices are equal or not based on the flag's value, demonstrating basic matrix comparison logic in C++.
+
+--> Algorithm:
+
+1. Input Matrix-1 Dimensions: Read rows (m1) and columns (n1).
+2. Input Matrix-1 Elements: Store values in 2D array mat1[m1][n1].
+3. Input Matrix-2 Dimensions: Read rows (m2) and columns (n2).
+4. Input Matrix-2 Elements: Store values in 2D array mat2[m2][n2].
+5. Display Both Matrices: Print mat1 and mat2 for verification.
+6. Check Equality Conditions:
+  -If dimensions mismatch (m1 != m2 or n1 != n2), output "Not equal".
+  -If dimensions match, compare each element (mat1[i][j] == mat2[i][j]).
+7. Set Flag:
+  -flag = 1 if all elements match.
+  -Else, keep flag = 0.
+8. Output Result:
+  -If flag == 1, print "Equal".
+  -Else, print "Not equal".
+
+# Conclusion
+
+These C++ programs demonstrate core concepts of arrays and pointers through practical implementations. The matrix programs show how to input, display, and compare 2-D arrays, including an equality check for square matrices. The pointer examples illustrate type-dependent arithmetic and string manipulation through memory addresses. Together, they highlight efficient data handling and memory management in C++. These foundational concepts are essential for advancing to dynamic memory allocation and complex data structures.
