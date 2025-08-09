@@ -1,4 +1,4 @@
-# Multidimensional Arrays
+# MULTIDIMENSIONAL ARRAYS
 
 Aim: To study and implement C++ 2D Array - Matrices.
 
